@@ -1,0 +1,5 @@
+{
+  "name": "StackGenie AI",
+  "description": "An intelligent architecture planner that generates project structures and tech stack recommendations for React, Angular, Vue, Next.js, and Nuxt projects using Gemini.",
+  "requestFramePermissions": []
+}
