@@ -10,7 +10,8 @@ export const generateArchitecture = async (
   projectIdea: string
 ): Promise<string> => {
   
-  const modelId = 'gemini-2.5-flash';
+  // Use gemini-3-pro-preview for complex text tasks (coding/architecture)
+  const modelId = 'gemini-3-pro-preview';
   
   const prompt = `
     Role: You are a world-class Senior Software Architect.
